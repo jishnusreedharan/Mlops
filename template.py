@@ -4,7 +4,11 @@ from pathlib import Path
 list_of_files = [
    ".github/workflows/ci.yaml",
    "src/__init__.py",
-   "src/__init__.py", 
+   "src/components/__init__.py",
+   "src/components/data_ingestion.py",
+   "src/components/data_transformation.py",
+   "src/components/model_trainer.py",
+   "src/components/evaluation.py", 
    "src/mongo_crud.py", 
    "tests/__init__.py",
    "tests/unit/__init__.py",
